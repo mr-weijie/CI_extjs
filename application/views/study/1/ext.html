@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('ext-4.2.1/resources/css/ext-all.css')?>">
+    <script type="text/javascript" src="<?php echo base_url('ext-4.2.1/bootstrap.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo isset($js)? $js:''?>"></script>
+
+    <title>Title</title>
+    <style>
+        .divC {width: 300px;height: 200px;border:1px solid;background-color: #990000}
+    </style>
+</head>
+<body>
+<div style="width: 300px;height: 30px;margin: 0 auto"><a href="/">返回首页</a> </div>
+<div class="divC"></div>
+<div style="width: 500px;height: 200px;margin: 0 auto;background-color: #afd3ed;padding-top: 30px;padding-left: 20px">
+    <input type="button" id="btn0" value="Ext.isEmpty操作" >
+    <input type="button" id="btn1" value="Ext.namespace操作" >
+    <input type="button" id="btn2" value="Ext.each操作" >
+    <input type="button" id="btn3" value="Ext.apply操作" ><br>
+    <input type="button" id="btn4" value="Ext.encode编码操作" >
+    <input type="button" id="btn5" value="Ext.hemlDecode解码操作" >
+    <input type="button" id="btn6" value="Ext.selectCSS选择器操作" ><br>
+    <input type="button" id="btn7" value="Ext.typeOf操作" >
+
+
+
+</div>
+</body>
+</html>

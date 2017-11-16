@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('ext-4.2.1/resources/css/ext-all.css')?>">
+    <script type="text/javascript" src="<?php echo base_url('ext-4.2.1/bootstrap.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo isset($js)? $js:''?>"></script>
+
+    <title>Title</title>
+    <script>
+        function  hello() {
+            alert('hello world!');
+        }
+    </script>
+</head>
+<body>
+<div style="width: 300px;height: 30px;margin: 0 auto"><a href="/">返回首页</a> </div>
+<div style="width: 500px;height: 300px;margin: 0 auto;background-color: #afd3ed;padding-top: 30px;padding-left: 20px">
+    <input type="button" id="id0" value="html/dhtml绑定方式(最传统的绑定方式)" onclick="hello()"><br><br>
+    <input type="button" id="id1" value="DOM绑定方式(JS传统绑定方式)"><br><br>
+    <input type="button" id="id2" value="ExtJS绑定方式"><br><br>
+    <input type="button" id="id3" value="事件传递功能（从一个事件传到另一个事件上）"><br><br>
+    <input type="button" id="id4" value="事件对象（每一个事件都是一个对象）"><br><br>
+    <input type="button" id="id5" value="通过事件管理器eventManager来创建监听"><br><br>
+
+
+</div>
+</body>
+</html>

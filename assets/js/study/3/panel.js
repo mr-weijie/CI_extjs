@@ -1,0 +1,70 @@
+/**
+ * Created by Administrator on 2017/11/10.
+ */
+Ext.onReady(function () {
+    Ext.tip.QuickTipManager.init();
+    Ext.create('Ext.panel.Panel',{
+        title:'[01]面板头部[Ext.panel.Header]',
+        width:500,
+        bodyPadding:10,//内间距
+        height:400,
+        hideCollapseTool:false,//设置隐藏收缩工具为假，即可以有收缩隐藏的工具按钮
+        collapsible:true,//上面的hideCollapseTool必须和这个属性配合才可以生效
+        //animCollapse:false,//关闭收缩时的动画效果,默认是true
+        fram:true,//饱满渲染面板
+        autoLoad:'http://www.baidu.com',//自动加载网页,但好象不能跨域加载
+        html:'<p>[02]面板体</p>',//和autoLoad属性相冲突，只要有上面的autoLoad加载，就不会再加载此项
+        autoScroll:true,//自动显示滚动条
+        closable:true,//显示可关闭按钮
+        closeAction:'destroy',//设置关闭时的动作(destroy/hide)
+        bodyStyle:{
+            background:'#ffc'
+        },
+        renderTo:'myform',
+        tbar:[
+            {xtype:'button',text:'[03]顶部工具栏'},
+            {xtype:'button',text:'工具栏按钮',iconCls:'teachers'}
+        ],
+        bbar:[
+            {xtype:'button',text:'[04]底部工具栏'},
+            {xtype:'button',text:'底部工具栏按钮',iconCls:'rubrics'}
+        ],
+        dockedItems:[//停靠栏
+            {
+                xtype:'toolbar',
+                dock:'bottom',//停靠位置，底部
+              //  ui:'footer',
+                items:[
+                    {xtype:'component',flex:1},
+                    {xtype:'button',text:'[05]面板底部',handler:function (b) {
+                        b.up('panel').removeAll(true)//参数true为自动销毁，false为不自动销毁
+                    }}
+                ]
+            }
+        ],
+        tools:[//上面的控制按钮
+            {
+                type:'refresh',//刷新按钮
+                qtip:'刷新',//提示
+            },
+            {
+                type:'help',//帮助按钮
+                qtip:'帮助'
+            },
+            {
+                id:'next',//下一个按钮
+                qtip:'下一个',
+                handler:function (event, toolEl, panelHeader) {
+                    panelHeader.up('panel').insert(0,{
+                        xtype:'panel',
+                        width:100,
+                        height:100,
+                        bodyStyle:{
+                            background:'red'
+                        }
+                    });
+                }
+            }
+        ]
+    });
+});

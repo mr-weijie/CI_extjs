@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('ext-4.2.1/resources/css/ext-all.css')?>">
+    <script type="text/javascript" src="<?php echo base_url('ext-4.2.1/bootstrap.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo isset($js)? $js:''?>"></script>
+
+    <title>Title</title>
+</head>
+<body>
+<div style="width: 300px;height: 30px;margin: 0 auto; "><a href="/">返回首页</a> </div>
+<div style="width: 300px;height: 30px;margin: 0 auto; ">当前时间<input type="text" id="time" name="time"> </div>
+<div style="width: 500px;height: 200px;margin: 0 auto;background-color: #afd3ed;padding-top: 30px;padding-left: 20px">
+    <input type="button" id="id0" value="启动线程">
+    <input type="button" id="id1" value="停止线程">
+
+</div>
+</body>
+</html>

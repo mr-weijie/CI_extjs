@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div{margin: 0px auto}
+        h1{font-size: 18px;margin-left: 30px}
+        li{ list-style: decimal}
+        .div-left{width: 300px;height: 800px;border: 1px solid;border-bottom-color: #1b376c;float: left}
+        .div-middle{width: 300px;height: 800px;border: 1px solid;border-bottom-color: #1b376c;float: left;margin-left: 2px;margin-right: 2px}
+        .div-right{width: 300px;height: 800px;border: 1px solid;border-bottom-color: #1b376c;float: left}
+    </style>
+    <title>Title</title>
+</head>
+<body>
+<div style="width: 920px;height:850px;background-color: #afd3ed;margin-top: 20px">
+    <h1 style="font-size: 18px;color: #1b376c;height: 30px;line-height: 30px;text-align: center;width: 600px">extjs学习事例</h1>
+    <div class="div-left">
+        <h1>基础知识部分</h1>
+        <ul>
+            <li><a href="<?php echo site_url('study/helloworld') ?>">Hello World</a></li>
+            <li><a href="<?php echo site_url('study/arr') ?>">Array</a></li>
+            <li><a href="<?php echo site_url('study/jsextends') ?>">Js原生指扩展</a></li>
+            <li><a href="<?php echo site_url('study/showwindow') ?>">加载窗口</a></li>
+            <li><a href="<?php echo site_url('study/alias') ?>">别名使用</a></li>
+            <li><a href="<?php echo site_url('study/define') ?>">用define方法自定义类</a></li>
+            <li><a href="<?php echo site_url('study/mywin') ?>">正常引用文件来自定义类</a></li>
+            <li><a href="<?php echo site_url('study/jsnamespace') ?>">JS命名空间</a></li>
+            <li><a href="<?php echo site_url('study/config') ?>">利用config来自动配置set和get</a></li>
+            <li><a href="<?php echo site_url('study/mixins') ?>">利用minxins(混合)来实现多点继承</a></li>
+            <li><a href="<?php echo site_url('study/models') ?>">数据模型</a></li>
+            <li><a href="<?php echo site_url('study/validations') ?>">数据验证</a></li>
+            <li><a href="<?php echo site_url('study/proxy') ?>">数据代理</a></li>
+            <li><a href="<?php echo site_url('study/memoryproxy') ?>">内存数据代理</a></li>
+            <li><a href="<?php echo site_url('study/localstorage') ?>">本地代理数据存储</a></li>
+            <li><a href="<?php echo site_url('study/sessionstorage') ?>">Session代理数据存储</a></li>
+            <li><a href="<?php echo site_url('study/jsonp') ?>">跨域代理数据请求</a></li>
+            <li><a href="<?php echo site_url('study/store') ?>" >Model数据集合Store用法</a></li>
+            <li><a href="<?php echo site_url('study/eventbinding') ?>"> 事件的三种绑定方式</a></li>
+            <li><a href="<?php echo site_url('study/addManagedListener') ?>"> 向任意对象中添加可管理的监听</a></li>
+            <li><a href="<?php echo site_url('study/ajax') ?>"> ajax相关操作</a></li>
+            <li><a href="<?php echo site_url('study/elementloader') ?>">使用 Elementload来重构html页面</a></li>
+            <li><a href="<?php echo site_url('study/ext') ?>">Ext相关操作</a></li>
+            <li><a href="<?php echo site_url('study/element') ?>">Ext.dom.Element相关操作</a></li>
+            <li><a href="<?php echo site_url('study/domhelper') ?>">domhepler相关操作</a></li>
+            <li><a href="<?php echo site_url('study/utilcss') ?>">util.Css相关操作</a></li>
+            <li><a href="<?php echo site_url('study/clickrepeater') ?>">util.ClickRepeater相关操作</a></li>
+            <li><a href="<?php echo site_url('study/format') ?>">util.Format相关操作</a></li>
+            <li><a href="<?php echo site_url('study/collection') ?>">collection相关操作</a></li>
+            <li><a href="<?php echo site_url('study/taskrunner') ?>">TaskRunner相关操作</a></li>
+
+        </ul>
+    </div>
+    <div class="div-middle">
+        <h1>高级组件部分</h1>
+        <ul>
+            <li><a href="<?php echo site_url('study/gridpanel') ?>">高级表格gridPanel</a></li>
+            <li><a href="<?php echo site_url('study/mvc') ?>">MVC模式的gridPanel</a></li>
+            <li><a href="<?php echo site_url('study/treepanel') ?>">MVC模式的treePanel</a></li>
+            <li><a href="<?php echo site_url('study/multicolstree') ?>">多列树</a></li>
+            <li><a href="<?php echo site_url('study/integration') ?>">Tree+Grid整合案例</a></li>
+            <li><a href="<?php echo site_url('study/factory') ?>">Grid+工厂类整合案例</a></li>
+        </ul>
+        <h1>表单及面板组件部分</h1>
+        <ul>
+            <li><a href="<?php echo site_url('study/form') ?>">简单的表单组件</a></li>
+            <li><a href="<?php echo site_url('study/localcombobox') ?>">本地数据Combobox组件</a></li>
+            <li><a href="<?php echo site_url('study/remotecombobox') ?>">远程数据Combobox组件</a></li>
+            <li><a href="<?php echo site_url('study/time') ?>">时间日期组件</a></li>
+            <li><a href="<?php echo site_url('study/htmleditor') ?>">Html富文本编辑组件</a></li>
+            <li><a href="<?php echo site_url('study/fieldset') ?>">使用字段集展示字段</a></li>
+            <li><a href="<?php echo site_url('study/container') ?>">FieldContainer布局及图片上传</a></li>
+            <li><a href="<?php echo site_url('study/panel') ?>">布局中的面板部件</a></li>
+            <li><a href="<?php echo site_url('study/autolayout') ?>">自动布局</a></li>
+            <li><a href="<?php echo site_url('study/fitlayout') ?>">fit布局</a></li>
+            <li><a href="<?php echo site_url('study/accordionlayout') ?>">accordion(手风琴)式布局</a></li>
+            <li><a href="<?php echo site_url('study/cardlayout') ?>">cardlayout(卡片)式布局</a></li>
+            <li><a href="<?php echo site_url('study/anchorlayout') ?>">anchorlayout锚点布局</a></li>
+            <li><a href="<?php echo site_url('study/absolutelayout') ?>">absolute(绝对定位)布局</a></li>
+            <li><a href="<?php echo site_url('study/columnlayout') ?>">Column(列)布局</a></li>
+            <li><a href="<?php echo site_url('study/tablelayout') ?>">Table(表格)布局</a></li>
+            <li><a href="<?php echo site_url('study/simplechartdemo') ?>">简单Chart图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/columnchartdemo') ?>">柱形图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/linechartdemo') ?>">折线图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/piechartdemo') ?>">饼形图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/barchartdemo') ?>">条形图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/areachartdemo1') ?>">面积图表Demo1</a></li>
+            <li><a href="<?php echo site_url('study/areachartdemo2') ?>">面积图表Demo2</a></li>
+            <li><a href="<?php echo site_url('study/gaugechartdemo') ?>">仪表图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/radachartdemo') ?>">雷达图表Demo</a></li>
+        </ul>
+
+    </div>
+    <div class="div-right">
+        <h1>Html+Js特效</h1>
+        <ul>
+            <li><a href="<?php echo site_url('html/c1') ?>">CSS3二级下拉动画菜单 菜单背景滑动动画</a></li>
+            <li><a href="<?php echo site_url('study/localcombobox') ?>">本地数据Combobox组件</a></li>
+            <li><a href="<?php echo site_url('study/remotecombobox') ?>">远程数据Combobox组件</a></li>
+            <li><a href="<?php echo site_url('study/time') ?>">时间日期组件</a></li>
+            <li><a href="<?php echo site_url('study/htmleditor') ?>">Html富文本编辑组件</a></li>
+            <li><a href="<?php echo site_url('study/fieldset') ?>">使用字段集展示字段</a></li>
+            <li><a href="<?php echo site_url('study/container') ?>">FieldContainer布局及图片上传</a></li>
+            <li><a href="<?php echo site_url('study/panel') ?>">布局中的面板部件</a></li>
+            <li><a href="<?php echo site_url('study/autolayout') ?>">自动布局</a></li>
+            <li><a href="<?php echo site_url('study/fitlayout') ?>">fit布局</a></li>
+            <li><a href="<?php echo site_url('study/accordionlayout') ?>">accordion(手风琴)式布局</a></li>
+            <li><a href="<?php echo site_url('study/cardlayout') ?>">cardlayout(卡片)式布局</a></li>
+            <li><a href="<?php echo site_url('study/anchorlayout') ?>">anchorlayout锚点布局</a></li>
+            <li><a href="<?php echo site_url('study/absolutelayout') ?>">absolute(绝对定位)布局</a></li>
+            <li><a href="<?php echo site_url('study/columnlayout') ?>">Column(列)布局</a></li>
+            <li><a href="<?php echo site_url('study/tablelayout') ?>">Table(表格)布局</a></li>
+            <li><a href="<?php echo site_url('study/simplechartdemo') ?>">简单Chart图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/columnchartdemo') ?>">柱形图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/linechartdemo') ?>">折线图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/piechartdemo') ?>">饼形图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/barchartdemo') ?>">条形图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/areachartdemo1') ?>">面积图表Demo1</a></li>
+            <li><a href="<?php echo site_url('study/areachartdemo2') ?>">面积图表Demo2</a></li>
+            <li><a href="<?php echo site_url('study/gaugechartdemo') ?>">仪表图表Demo</a></li>
+            <li><a href="<?php echo site_url('study/radachartdemo') ?>">雷达图表Demo</a></li>
+        </ul>
+
+    </div>
+
+
+</div>
+</body>
+</html>

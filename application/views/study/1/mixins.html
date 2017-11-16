@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('ext-4.2.1/resources/css/ext-all.css')?>">
+    <script type="text/javascript" src="<?php echo base_url('ext-4.2.1/bootstrap.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo isset($js)? $js:''?>"></script>
+
+    <title>Title</title>
+</head>
+<body>
+<div style="width: 300px;height: 30px;margin: 0 auto"><a href="/">返回首页</a> </div>
+<div style="width: 300px;height: 200px;margin: 0 auto;background-color: #afd3ed;padding-top: 30px;padding-left: 20px">
+    <div>
+        <p>
+            mixins机制主要作用就是将不同的类的属性和方法可以融入新的类中，实现多类同时继承
+        </p>
+    </div>
+    <input type="button" id="sing" value='唱歌'>
+    <input type="button" id="cansay" value="会说话">
+    <input type="button" id="dance" value="跳舞">
+    <input type="button" id="draw" value="画画">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/**
+ * Created by Administrator on 2017/11/10.
+ */
+Ext.onReady(function () {
+    Ext.tip.QuickTipManager.init();
+    Ext.create('Ext.Panel',{
+        title:'Column列布局',
+        width:500,
+        height:500,
+        layout:'column',
+        renderTo:'myform',
+        items:[
+            {
+                title:'宽=（总宽度-250）*25%',
+                columnWidth:.25,//必须这个写，特定的写法或写0.25，不能写成25%
+                height:100,
+                html:'Content'
+            },
+            {
+                title:'宽=（总宽度-250）*75',
+                columnWidth:.75,
+                height:100,
+                html:'Content'
+            },
+            {
+                title:'宽=250',
+                width:250,
+                height:150,
+                html:'Content'
+            }
+        ]
+    });
+});

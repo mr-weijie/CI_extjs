@@ -1,0 +1,339 @@
+/* 
+    Document   : panel_img
+    Created on : 2009-3-14, 16:58:33
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+.welcome {
+    background-image:url(../images/icon/welcome.png) !important;
+}
+.students {
+    background-image:url(../images/icon/student.png) !important;
+}
+.teachers {
+    background-image:url(../images/icon/teacher.png) !important;
+}
+.managers {
+    background-image:url(../images/icon/manager.png) !important;
+}
+.organizations {
+    background-image:url(../images/icon/organization.png) !important;
+}
+.subjects {
+    background-image:url(../images/icon/subject.png) !important;
+}
+.student_evaluation_types {
+    background-image:url(../images/icon/student_evaluation_type.png) !important;
+}
+.teacher_evaluation_types {
+    background-image:url(../images/icon/teacher_evaluation_type.png) !important;
+}
+.rubrics {
+    background-image:url(../images/icon/rubric.png) !important;
+}
+.positions {
+    background-image:url(../images/icon/position.png) !important;
+}
+.teacher_positions {
+    background-image:url(../images/icon/position.png) !important;
+}
+.student_positions {
+    background-image:url(../images/icon/position.png) !important;
+}
+.student_evaluations {
+    background-image:url(../images/icon/student_evaluation.png) !important;
+}
+.teacher_evaluations {
+    background-image:url(../images/icon/teacher_evaluation.png) !important;
+}
+.assessors {
+    background-image:url(../images/icon/assessor.png) !important;
+}
+.student_eportfolios {
+    background-image:url(../images/icon/student_portfolio.png) !important;
+}
+.teacher_eportfolios {
+    background-image:url(../images/icon/teacher_portfolio.png) !important;
+}
+.portfolio_types {
+    background-image:url(../images/icon/portfolio_type.png) !important;
+}
+.teacher_portfolio_parts {
+    background-image:url(../images/icon/teacher_portfolio_part.png) !important;
+}
+.student_portfolio_parts {
+    background-image:url(../images/icon/student_portfolio_parts.png) !important;
+}
+.relationship_types {
+    background-image:url(../images/icon/relationship_type.png) !important;
+}
+.view_evaluation_results {
+    background-image:url(../images/icon/view_evaluation_result.png) !important;
+}
+.course_teachers {
+    background-image:url(../images/icon/course_teacher.png) !important;
+}
+.exam_sites {
+    background-image:url(../images/icon/exam_site.png) !important;
+}
+.documents {
+    background-image:url(../images/icon/document.png) !important;
+}
+.register {
+    background-image:url(../images/icon/register.png) !important;
+}
+.about {
+    background-image:url(../images/icon/about.png) !important;
+}
+.evaluations {
+    background-image:url(../images/icon/evaluation.png) !important;
+}
+.criteria_types {
+    background-image:url(../images/icon/criteria_type.png) !important;
+}
+.add,.new{
+    background-image:url(../images/icon/add.png) !important;
+}
+.edit {
+    background-image:url(../images/icon/edit.png) !important;
+}
+.show {
+    background-image:url(../images/icon/show.png) !important;
+}
+.del {
+    background-image:url(../images/icon/del.png) !important;
+}
+.showresult {
+    background-image:url(../images/icon/showresult.png) !important;
+}
+.showrank {
+    background-image:url(../images/icon/showrank.png) !important;
+}
+.startassessor {
+    background-image:url(../images/icon/startassessor.png) !important;
+}
+.assessor_people {
+    background-image:url(../images/icon/assessor_people.png) !important;
+}
+.detail {
+    background-image:url(../images/icon/detail.png) !important;
+}
+.view_portfolio {
+    background-image:url(../images/icon/view_portfolio.png) !important;
+}
+.add_evaluation {
+    background-image:url(../images/icon/add_evaluation.png) !important;
+}
+.portfolio {
+    background-image:url(../images/icon/portfolio.png) !important;
+}
+.basic_info {
+    background-image:url(../images/icon/basic_info.png) !important;
+}
+.people {
+    background-image:url(../images/icon/people.png) !important;
+}
+.help {
+    background-image:url(../images/icon/help.png) !important;
+}
+.wel {
+    background-image:url(../images/icon/wel.png) !important;
+}
+.out {
+    background-image:url(../images/icon/out.png) !important;
+}
+.portfolio_parts {
+    background-image:url(../images/icon/portfolio_part.png) !important;
+}
+.position_types {
+    background-image:url(../images/icon/position_type.png) !important;
+}
+.teacher_position_types {
+    background-image:url(../images/icon/position_type.png) !important;
+}
+.student_position_types {
+    background-image:url(../images/icon/position_type.png) !important;
+}
+.evaluation_types {
+    background-image:url(../images/icon/evaluation_type.png) !important;
+}
+.portfolios {
+    background-image:url(../images/icon/portfolios.png) !important;
+}
+.copy_right {
+    background-image:url(../images/icon/copy_right.png) !important;
+}
+.permissions{
+    background-image:url(../images/icon/permission.png) !important;
+}
+.view_resume{
+    background-image:url(../images/icon/view_resume.png) !important;
+}
+.exams {
+    background-image:url(../images/icon/exam.png) !important;
+}
+.exam_types {
+    background-image:url(../images/icon/exam_type.png) !important;
+}
+.examinees {
+    background-image:url(../images/icon/examinees.png) !important;
+}
+.results {
+    background-image:url(../images/icon/add_subject_results.png) !important;
+}
+.semesters  {background-image:url(../images/icon/semester.gif) !important;}
+.change_role{background-image:url(../images/icon/change_role.png) !important;}
+.evaluation_rank_detail{background-image:url(../images/icon/evaluation_rank_detail.gif) !important;}
+.checked{background-image:url(../images/icon/checked.gif) !important;}
+.uncheck{background-image:url(../images/icon/uncheck.gif) !important;}
+.members{background-image:url(../images/icon/member.png) !important;}
+.member_types{background-image:url(../images/icon/member_type.png) !important;}
+.learning_experiences{background-image:url(../images/icon/learning_experience.png) !important;}
+.work_experiences{background-image:url(../images/icon/work_experience.png) !important;}
+.student_resumes{background-image:url(../images/icon/member.png) !important;}
+.teacher_resumes{background-image:url(../images/icon/member.png) !important;}
+.level{background-image:url(../images/icon/level.gif) !important;}
+.sites {
+    background-image:url(../images/icon/site.gif) !important;
+}
+.exam_results {
+    background-image:url(../images/icon/exam_results.png) !important;
+}
+.exam_results_input{
+    background-image:url(../images/icon/exam_results_input.png) !important;
+}
+.exam_results_analysis{
+    background-image:url(../images/icon/exam_results_analysis.png) !important;
+}
+.sort_seats{
+    background-image:url(../images/icon/sort_seats.png) !important;
+}
+.export_resume{
+    background-image:url(../images/icon/export_resume.png) !important;
+}
+.exam_sites{
+    background-image:url(../images/icon/exam_sites.png) !important;
+}
+.edit_password{
+    background-image:url(../images/icon/edit_password.png) !important;
+}
+.reports {
+    background-image:url(../images/icon/report.png) !important;
+}
+.student_reports {
+    background-image:url(../images/icon/student_reports.png) !important;
+}
+.high_school_reports {
+    background-image:url(../images/icon/high_school_reports.png) !important;
+}
+.generate_report{
+    background-image:url(../images/icon/generate_report.png) !important;
+}
+.report_items{
+    background-image:url(../images/icon/report_items.png) !important;
+}
+.test_subjects{
+    background-image:url(../images/icon/test_subjects.png) !important;
+}
+.subject_levels{
+    background-image:url(../images/icon/subject_levels.png) !important;
+}
+.set_subjects{
+    background-image:url(../images/icon/set_subjects.png) !important;
+}
+.examination{
+    background-image:url(../images/icon/examination.png) !important;
+}
+.student_assessment_statistics{
+    background-image:url(../images/icon/statistics.png) !important;
+}
+.teacher_assessment_statistics{
+    background-image:url(../images/icon/statistics.png) !important;
+}
+.assessment_packing_statistics{
+    background-image:url(../images/icon/statistics.png) !important;
+}
+.print{
+    background-image:url(../images/icon/print.png) !important;
+}
+.export_pdf{
+    background-image:url(../images/icon/export_pdf.png) !important;
+}
+.export_word{
+    background-image:url(../images/icon/export_word.png) !important;
+}
+.export_excel{
+    background-image:url(../images/icon/export_excel.png) !important;
+}
+.export{
+    background-image:url(../images/icon/export.png) !important;
+}
+.assessments{
+    background-image:url(../images/icon/assessments.png) !important;
+}
+.teacher_assessments{
+    background-image:url(../images/icon/teacher_assessments.png) !important;
+}
+.student_assessments{
+    background-image:url(../images/icon/student_assessments.png) !important;
+}
+.assessment_packings{
+    background-image:url(../images/icon/student_assessments.png) !important;
+}
+.simple_assessment_item{
+    background-image:url(../images/icon/simple_assessment_item.png) !important;
+}
+.composite_assessment_item{
+    background-image:url(../images/icon/composite_assessment_item.png) !important;
+}
+.SimpleAssessmentItem{
+    background-image:url(../images/icon/simple_assessment_item.png) !important;
+}
+.archives{
+    background-image:url(../images/icon/archives.png) !important;
+}
+.exam_results_collect{
+    background-image:url(../images/icon/exam_results_collect.png) !important;
+}
+.set_report_template{
+    background-image:url(../images/icon/set_report_template.png) !important;
+}
+.academic_years{
+    background-image:url(../images/icon/academic_year.png) !important;
+}
+.database{
+    background-image:url(../images/icon/database.png) !important;
+}
+.database_mgr{
+    background-image:url(../images/icon/database_mgr.png) !important;
+}
+.credits{
+    background-image:url(../images/icon/credits.png) !important;
+}
+.module_types{
+    background-image:url(../images/icon/module_types.png) !important;
+}
+.credit_modules{
+    background-image:url(../images/icon/credit_modules.png) !important;
+}
+.module_results{
+    background-image:url(../images/icon/module_results.png) !important;
+}
+.statistic_credits{
+    background-image:url(../images/icon/statistic_credits.png) !important;
+}
+.statistic_credit_exams{
+    background-image:url(../images/icon/statistic_credit_exams.png) !important;
+}
+.development_reports{
+    background-image:url(../images/icon/development_reports.png) !important;
+}
+.transfer_card{
+    background-image:url(../images/icon/page_refresh.png) !important;
+}
